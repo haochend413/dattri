@@ -106,3 +106,8 @@ ignore = [
 
 [tool.ruff.lint.pydocstyle]
 convention = "google"
+
+[tool.pytest.ini_options]
+markers = [
+    "gpu: tests that require GPU hardware",
+]
